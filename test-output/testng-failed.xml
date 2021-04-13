@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="zipcode" value="600114"/>
+    <parameter name="nameoncard" value="iswarya"/>
+    <parameter name="address" value="nanganallur"/>
+    <parameter name="deppart" value="2"/>
+    <parameter name="city" value="chennai"/>
+    <parameter name="name" value="guru"/>
+    <parameter name="cardmonth" value="2"/>
+    <parameter name="state" value="tamilnadu"/>
+    <parameter name="cardnumber" value="8765789043214567"/>
+    <parameter name="dest" value="2"/>
+    <parameter name="cardyear" value="2021"/>
+    <classes>
+      <class name="org.airlinedemo.ExecutingClass">
+        <methods>
+          <include name="testCasePassengerId"/>
+          <include name="testCase3Register" invocation-numbers="0"/>
+          <include name="aftermethod"/>
+          <include name="afterclass"/>
+          <include name="testcase1city" invocation-numbers="0"/>
+          <include name="testcase2ChooseFlights"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- org.airlinedemo.ExecutingClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

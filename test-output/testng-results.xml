@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10289" started-at="2021-04-11T19:24:30 IST" finished-at="2021-04-11T19:24:40 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="10289" started-at="2021-04-11T19:24:30 IST" finished-at="2021-04-11T19:24:40 IST">
+      <class name="org.airlinedemo.ExecutingClass">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.airlinedemo.ExecutingClass@4b553d26]" name="beforeClass" is-config="true" duration-ms="4233" started-at="2021-04-11T19:24:30 IST" finished-at="2021-04-11T19:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.airlinedemo.ExecutingClass@4b553d26]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2021-04-11T19:24:34 IST" finished-at="2021-04-11T19:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase1city(int, int)[pri:1, instance:org.airlinedemo.ExecutingClass@4b553d26]" name="testcase1city" duration-ms="1434" started-at="2021-04-11T19:24:34 IST" finished-at="2021-04-11T19:24:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1city -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:org.airlinedemo.ExecutingClass@4b553d26]" name="aftermethod" is-config="true" duration-ms="0" started-at="2021-04-11T19:24:35 IST" finished-at="2021-04-11T19:24:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="testcase2ChooseFlights()[pri:2, instance:org.airlinedemo.ExecutingClass@4b553d26]" name="testcase2ChooseFlights" duration-ms="1010" started-at="2021-04-11T19:24:35 IST" finished-at="2021-04-11T19:24:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2ChooseFlights -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.airlinedemo.ExecutingClass@4b553d26]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-04-11T19:24:35 IST" finished-at="2021-04-11T19:24:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:org.airlinedemo.ExecutingClass@4b553d26]" name="aftermethod" is-config="true" duration-ms="2" started-at="2021-04-11T19:24:36 IST" finished-at="2021-04-11T19:24:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.airlinedemo.ExecutingClass@4b553d26]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-04-11T19:24:36 IST" finished-at="2021-04-11T19:24:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCase3Register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.airlinedemo.ExecutingClass@4b553d26]" name="testCase3Register" duration-ms="2528" started-at="2021-04-11T19:24:36 IST" finished-at="2021-04-11T19:24:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[guru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nanganallur]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[tamilnadu]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[600114]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8765789043214567]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2021]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[iswarya]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3Register -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:org.airlinedemo.ExecutingClass@4b553d26]" name="aftermethod" is-config="true" duration-ms="1" started-at="2021-04-11T19:24:39 IST" finished-at="2021-04-11T19:24:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.airlinedemo.ExecutingClass@4b553d26]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-04-11T19:24:39 IST" finished-at="2021-04-11T19:24:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCasePassengerId()[pri:4, instance:org.airlinedemo.ExecutingClass@4b553d26]" name="testCasePassengerId" duration-ms="357" started-at="2021-04-11T19:24:39 IST" finished-at="2021-04-11T19:24:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCasePassengerId -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:org.airlinedemo.ExecutingClass@4b553d26]" name="aftermethod" is-config="true" duration-ms="0" started-at="2021-04-11T19:24:39 IST" finished-at="2021-04-11T19:24:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:org.airlinedemo.ExecutingClass@4b553d26]" name="afterclass" is-config="true" duration-ms="663" started-at="2021-04-11T19:24:39 IST" finished-at="2021-04-11T19:24:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- org.airlinedemo.ExecutingClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

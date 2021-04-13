@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="deppart" value="2"></parameter>
+  <parameter name="dest" value="2"></parameter>
+  <parameter name="name" value="ishu"></parameter>
+  <parameter name="address" value="nanganallur"></parameter>
+  <parameter name="city" value="chennai"></parameter>
+  <parameter name="state" value="tamilnadu"></parameter>
+  <parameter name="zipcode" value="600114"></parameter>
+  <parameter name="cardnumber" value="8765789043214567"></parameter>
+  <parameter name="cardmonth" value="2"></parameter>
+  <parameter name="cardyear" value="2021"></parameter>
+  <parameter name="nameoncard" value="iswarya"></parameter>
+    <classes>
+      <class name="org.airlinedemo.ExecutingClass"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

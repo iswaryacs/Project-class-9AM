@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="username" value="reach2ishu03"></parameter>
+  <parameter name="password" value="vaishali"></parameter>
+  <parameter name="checkin" value="07.04.2021"></parameter>
+  <parameter name="checkout" value="10.04.2021"></parameter>
+  <parameter name="firstname" value="Iswarya"></parameter>
+  <parameter name="lastname" value="Subramanian"></parameter>
+  <parameter name="address" value="nanganallur"></parameter>
+  <parameter name="creditcardno" value="2567987646872123"></parameter>
+  <parameter name="cvvnumber" value="369"></parameter>
+    <classes>
+<class name="org.taskadact.AdactinHotelWorkingClass"></class>
+</classes>  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

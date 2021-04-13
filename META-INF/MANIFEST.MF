@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MavenDay1
+Bundle-SymbolicName: MavenDay1
+Bundle-Version: 1.0.0.qualifier
+Export-Package: com.base,
+ org.junit,
+ org.test,
+ org.testng
+Require-Bundle: org.junit
